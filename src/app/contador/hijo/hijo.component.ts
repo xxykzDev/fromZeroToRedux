@@ -18,7 +18,7 @@ export class HijoComponent {
     this.contadorHijo.emit(this.contador);
   }
 
-  resetContador(nuevoContador: any) {
+  resetContador(nuevoContador: number) {
     this.contador = nuevoContador;
     this.contadorHijo.emit(nuevoContador);
   }
